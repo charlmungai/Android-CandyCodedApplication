@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-        private void addCandiesToDatabase(Candy[] candies) {
+    private void addCandiesToDatabase(Candy[] candies) {
         SQLiteDatabase db = candyDbHelper.getWritableDatabase();
 
         for (Candy candy : candies) {
